@@ -1,0 +1,18 @@
+# Arquivos e pastas do .NET
+*.cs
+*.csproj
+*.sln
+bin/
+obj/
+.vs/
+
+# Arquivos e pastas do Angular
+dist/
+node_modules/
+.angular/
+coverage/
+
+# Outros arquivos
+*.min.js
+*.min.css
+package-lock.json
