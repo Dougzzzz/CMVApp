@@ -1,0 +1,6 @@
+@CMV.Server_HostAddress = http://localhost:5219
+
+GET {{CMV.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
