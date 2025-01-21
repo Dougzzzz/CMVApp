@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMV.Server", "CMV.Server\CM
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "cmv.client", "cmv.client\cmv.client.esproj", "{037039A9-AD87-44DA-BB5F-F01DB87BB7D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMVApp.Domain", "CMVApp.Domain\CMVApp.Domain.csproj", "{17B4A98A-B4C6-45FE-AB30-A3E58486E507}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,14 @@ Global
 		{037039A9-AD87-44DA-BB5F-F01DB87BB7D1}.Release|x86.ActiveCfg = Release|Any CPU
 		{037039A9-AD87-44DA-BB5F-F01DB87BB7D1}.Release|x86.Build.0 = Release|Any CPU
 		{037039A9-AD87-44DA-BB5F-F01DB87BB7D1}.Release|x86.Deploy.0 = Release|Any CPU
+		{17B4A98A-B4C6-45FE-AB30-A3E58486E507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B4A98A-B4C6-45FE-AB30-A3E58486E507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B4A98A-B4C6-45FE-AB30-A3E58486E507}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{17B4A98A-B4C6-45FE-AB30-A3E58486E507}.Debug|x86.Build.0 = Debug|Any CPU
+		{17B4A98A-B4C6-45FE-AB30-A3E58486E507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B4A98A-B4C6-45FE-AB30-A3E58486E507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B4A98A-B4C6-45FE-AB30-A3E58486E507}.Release|x86.ActiveCfg = Release|Any CPU
+		{17B4A98A-B4C6-45FE-AB30-A3E58486E507}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
