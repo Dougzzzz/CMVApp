@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  database:
+    image: "sqlite"
+    volumes:
+      - db_data:/data  
+    command: ["sqlite3", "/data/mydatabase.db"]  
+      
+
+volumes:
+  db_data:

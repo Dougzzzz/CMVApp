@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMV.Server", "CMV.Server\CM
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "cmv.client", "cmv.client\cmv.client.esproj", "{037039A9-AD87-44DA-BB5F-F01DB87BB7D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMVApp.Domain", "CMVApp.Domain\CMVApp.Domain.csproj", "{17B4A98A-B4C6-45FE-AB30-A3E58486E507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMVApp.Domain", "CMVApp.Domain\CMVApp.Domain.csproj", "{17B4A98A-B4C6-45FE-AB30-A3E58486E507}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{45AA885E-9AC1-4444-B222-1A2827F88019}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
